@@ -81,3 +81,18 @@ jitter = SUM (blok semua  jitter lalu enter )<br>
        = -0,074246 <br>           
 rata rata jiter = (total jitter / jumlah paket lalu enter)<br>
 		= 1,23373E-06 x 1000=0.00123373 ms<br>
+
+**Analisis**<Br>
+Quality of Service (QoS) adalah parameter penting dalam mengukur kinerja jaringan. Dalam praktikum ini, analisis QoS dilakukan menggunakan Wireshark dengan berbagai aktivitas internet seperti streaming, upload, dan download selama -+10 menit. Setelah itu, dilakukan pengukuran terhadap throughput, packet loss, delay, dan jitter.Throughput menunjukkan jumlah data yang berhasil dikirim dalam waktu tertentu. Packet loss terjadi ketika data tidak sampai ke tujuan, biasanya akibat gangguan jaringan. Delay atau latency adalah waktu yang dibutuhkan paket data untuk berpindah, sementara jitter adalah variasi waktu kedatangan paket yang dapat memengaruhi kestabilan komunikasi real-time.<br>
+Berdasarkan analisis menggunakan Wireshark, diperoleh nilai throughput, packet loss, delay, dan jitter yang menentukan kualitas jaringan. Jika throughput tinggi dan packet loss rendah, jaringan dalam kondisi baik. Namun, jika packet loss tinggi, delay besar, atau jitter tidak stabil, maka kualitas jaringan menurun, menyebabkan buffering atau gangguan komunikasi.Untuk meningkatkan kualitas jaringan, perlu memastikan koneksi tetap stabil, mengelola penggunaan bandwidth, serta menerapkan QoS pada router guna memprioritaskan lalu lintas data yang lebih penting.<br>
+
+**kesimpulan**<br>
+Berdasarkan analisis QoS menggunakan Wireshark, kualitas jaringan sangat dipengaruhi oleh nilai throughput, packet loss, delay, dan jitter. Jaringan yang optimal ditandai dengan throughput tinggi serta packet loss, delay, dan jitter yang rendah. Sebaliknya, jika terjadi packet loss yang signifikan, delay yang besar, atau jitter yang tidak stabil, maka kualitas jaringan akan menurun, menyebabkan gangguan seperti buffering atau komunikasi yang terputus-putus.Untuk meningkatkan kualitas jaringan, diperlukan langkah-langkah seperti menjaga kestabilan koneksi, mengelola penggunaan bandwidth, serta menerapkan QoS pada router agar lalu lintas data yang lebih penting mendapatkan prioritas. Dengan demikian, performa jaringan dapat tetap optimal dalam berbagai aktivitas internet seperti streaming, upload, dan download.<br>
+
+
+
+
+
+
+
+
